@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSMDEMO:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b227c2e0-6998-4f6b-8efb-f4ea601bcec7" name="Default Changelist" comment="sdfsdf">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/common/ApplicationContextHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/common/HttpInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/common/JsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/common/SpringExcepationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/controller/testController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/dto/DeptLevelDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/excepation/MyExcepation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/excepation/ParamException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/param/DeptParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/param/TestOV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/service/SysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/service/SysTreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/service/aaTestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/utils/BeanValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/utils/JsonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxwl/utils/LevelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mbg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/excepation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/avatars/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-editable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/google-fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/animated-overlay.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/meteorshower2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/OpenSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/OpenSans.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot_" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-elements.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-extra.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/date-time/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/date-time/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/date-time/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/flot/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/flot/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/flot/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux/data/fuelux.tree-sample-demo-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux/fuelux.tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.hotkeys.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/markdown/markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/x-editable/ace-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap3.3.5/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/group_col.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.excheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.exedit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.exhide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ztree/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sxwl/service/SysTreeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sxwl/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sxwl/test/IProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sxwl/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sxwl/test/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/SysDeptService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sysDeptMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7144">
+              <caret line="376" column="26" selection-start-line="376" selection-start-column="26" selection-end-line="376" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/testController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="240" column="17" lean-forward="true" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/excepation.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wwww</find>
+      <find>Base_Column_List</find>
+      <find>insertSelective</find>
+      <find>Error</find>
+      <find>TODD</find>
+      <find>config</find>
+      <find>部门名称</find>
+      <find>countByNameAndParentId</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/controller/sdsdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/controller/aaa.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mbg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/settings.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/excepation/MyExcepation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/common/JsonData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/excepation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/common/BeanVlidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/common/SpringExcepationResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/excepation/ParamException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sxwl/test/MyBatisTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/param/TestOV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/common/ApplicationContextHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/common/HttpInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/dto/deptLevelDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/entity/sysDept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/param/DeptParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/utils/LevelUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sxwl/service/SysTreeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/utils/JsonMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysAclMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/dto/DeptLevelDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/SysTreeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/INWO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/aaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysAclModuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/utils/BeanValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/aaTestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/controller/testController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sxwl/test/IProducer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sxwl/test/Producer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sxwl/test/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/service/SysDeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysDeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/sysDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMDEMO Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMDEMO Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sxwl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sxwl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sxwl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sxwl" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap3.3.5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap3.3.5" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDEMO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sxwl.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SSMDEMO\src\main\webapp" />
+      <recent name="D:\SSMDEMO\src\main\java\com\sxwl\common" />
+      <recent name="D:\SSMDEMO\src\main\java\com\sxwl\utils" />
+      <recent name="D:\SSMDEMO\src\main\java\com\sxwl\excepation" />
+      <recent name="D:\SSMDEMO\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.权限管理">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sxwl.test.Client" />
+      <module name="SSMDEMO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxwl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMDEMO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxwl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxwl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sxwl.test.MyBatisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSMDEMO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxwl.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxwl.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sxwl.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="权限管理" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMDEMO:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMDEMO_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62973" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMDEMO:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMDEMO:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMDEMO_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62331" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMDEMO:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.MyBatisTest" />
+      <item itemvalue="JUnit.MyBatisTest.test" />
+      <item itemvalue="Tomcat Server.权限管理" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.MyBatisTest.test" />
+        <item itemvalue="JUnit.MyBatisTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b227c2e0-6998-4f6b-8efb-f4ea601bcec7" name="Default Changelist" comment="" />
+      <created>1564320518062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564320518062</updated>
+      <workItem from="1564320519344" duration="3545000" />
+      <workItem from="1564451114930" duration="30000" />
+      <workItem from="1564497701194" duration="1567000" />
+      <workItem from="1564534000622" duration="306000" />
+      <workItem from="1564816769929" duration="8917000" />
+      <workItem from="1564826850472" duration="16753000" />
+      <workItem from="1564910046611" duration="17134000" />
+      <workItem from="1564965554109" duration="12407000" />
+      <workItem from="1564995266067" duration="1339000" />
+      <workItem from="1565014777538" duration="1997000" />
+      <workItem from="1565058379066" duration="7251000" />
+      <workItem from="1565145108530" duration="6468000" />
+      <workItem from="1565162834821" duration="5289000" />
+      <workItem from="1565168272740" duration="1200000" />
+      <workItem from="1565260464010" duration="2695000" />
+      <workItem from="1565408808815" duration="2706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MyBatisTest_test - 2019.08.03 at 17h 28m 32s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2019.08.03 at 17h 29m 13s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2019.08.03 at 17h 30m 33s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2019.08.03 at 17h 31m 14s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest - 2019.08.03 at 17h 32m 48s.xml">
+      <configuration name="MyBatisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2019.08.03 at 18h 20m 28s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2019.08.03 at 18h 21m 30s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyBatisTest_test - 2019.08.03 at 18h 28m 54s.xml">
+      <configuration name="MyBatisTest.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89604000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89873415" visible="true" weight="0.28150135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.101265825" side_tool="true" visible="true" weight="0.28150135" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8987936" weight="0.1855524" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8391421" weight="0.096317284" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.36402267" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49597856" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50402147" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49798927" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="14" sideWeight="0.46782842" weight="0.36827195" />
+      <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.4852547" weight="0.38101983" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.082439676" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sdfsdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="sdfsdf" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxwl/service/SysDeptService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sxwl/test/Client.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/view/BeanNameViewResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="16" column="102" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/utils/LevelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/entity/sysAcl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/entity/sysAclExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1117">
+          <caret line="1005" lean-forward="true" selection-start-line="1005" selection-end-line="1005" />
+          <folding>
+            <element signature="e#31785#31786#0" expanded="true" />
+            <element signature="e#31816#31817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/dto/DeptLevelDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/INWO.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mbg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.sxwl.service.aaTestService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.sxwl.service.aaTestService</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sxwl.service.aaTestService</node>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/wall/WallFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/config/spring-aop.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/excepation/MyExcepation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/SysTreeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/utils/JsonMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.sxwl.dao.sysAclModuleMapper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.sxwl.dao.sysAclModuleMapper</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sxwl.dao.sysAclModuleMapper</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysAclModuleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sxwl/test/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sxwl/test/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sxwl/test/IProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/entity/sysDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sysAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="397" column="9" lean-forward="true" selection-start-line="397" selection-start-column="9" selection-end-line="397" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/utils/BeanValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar!/org/hibernate/validator/internal/engine/ValidatorFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2526">
+          <caret line="570" selection-start-line="570" selection-end-line="570" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="527" selection-start-line="527" selection-end-line="527" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/aaTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/dao/sysDeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="103" column="48" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/param/DeptParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/html5shiv.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/service/SysDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sysDeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7144">
+          <caret line="376" column="26" selection-start-line="376" selection-start-column="26" selection-end-line="376" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/SysDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/testController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/excepation.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sxwl/controller/fds.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dept.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="240" column="17" lean-forward="true" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SSMDEMO:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SSMDEMO</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
